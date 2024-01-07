@@ -1,3 +1,7 @@
+Forked from [copilot-emacs/copilot.el](https://github.com/copilot-emacs/copilot.el) with my own customizations.
+
+------------------------------
+
 # Copilot.el
 
 Copilot.el is an Emacs plugin for GitHub Copilot.
