@@ -108,7 +108,7 @@ performance."
   :group 'copilot
   :type '(repeat function))
 
-(defcustom copilot-indent-offset-warning-disable nil
+(defcustom copilot-indent-offset-warning-disable t
   "Disable indentation warnings.
 
 Warning occurs when the function `copilot--infer-indentation-offset' cannot
