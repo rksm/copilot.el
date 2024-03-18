@@ -516,8 +516,7 @@ automatically, browse to %s." user-code verification-uri))
          (pmin (point-min))
          (half-window (/ copilot-max-char 2)))
     (when (and (>= copilot-max-char 0) (> pmax copilot-max-char))
-      (display-warning '(copilot copilot-exceeds-max-char)
-                       (format "%s size exceeds 'copilot-max-char' (%s), copilot completions may not work" (current-buffer) copilot-max-char)))
+      (message (format "%s size exceeds 'copilot-max-char' (%s), copilot completions may not work" (current-buffer) copilot-max-char)))
     (cond
      ;; using whole buffer
      ((or (< copilot-max-char 0) (< pmax copilot-max-char))
